@@ -44,9 +44,40 @@
           <tr>
             <td>002</td>
             <td>Banana</td>
-            <td>1,00</td> 
+            <td>1,00</td>
           </tr>
         </tbody>
       </table>
+      <br>
+      <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+        
+        <p>Gênero:</p>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label><br>
+        <input type="radio" id="outro" name="genero" value="outro">
+        <label for="outro">Outro</label><br>
+      
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Nome completo"><br>
+        
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome"><br>
+
+        <div>Aceito os termos e condições</div>
+        <input type="checkbox" name="" id="" value="1"><br>
+      
+        <label for="tamanho">Tamanho:</label><br>
+        <select id="tamanho" name="tamanho">
+          <option value="grande">Grande</option>
+          <!-- Adicione mais opções aqui -->
+        </select><br>
+      
+        <input type="submit" value="Enviar">
+        </fieldset>
+      </form>
 
 </body>
